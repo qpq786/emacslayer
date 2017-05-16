@@ -50,7 +50,6 @@
 (defun qpq-UI/init-chinese-fonts-setup ()
   (use-package chinese-fonts-setup
     :config
-    (chinese-fonts-setup-enable)
     (cfs-set-spacemacs-fallback-fonts)))
 
 
