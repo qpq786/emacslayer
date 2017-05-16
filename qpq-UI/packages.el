@@ -32,7 +32,8 @@
 (defconst qpq-UI-packages
   '(solarized-theme
     all-the-icons
-    all-the-icons-dired)
+    all-the-icons-dired
+    chinese-fonts-setup)
   )
 
 (defun qpq-UI/init-solarized-theme ()
@@ -46,6 +47,11 @@
     :config
     (add-hook 'dired-mode-hook 'all-the-icons-dired-mode)))
 
+(defun qpq-UI/init-chinese-fonts-setup ()
+  (use-package chinese-fonts-setup
+    :config
+    (chinese-fonts-setup-enable)
+    (cfs-set-spacemacs-fallback-fonts)))
 
 
 ;;; packages.el ends here
