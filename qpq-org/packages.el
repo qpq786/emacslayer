@@ -103,5 +103,5 @@
    '(org-done ((t (:foreground "PaleGreen"))))
    '(org-headline-done
      ((((class color) (min-colors 16) (background dark))
-       (:foreground "LightSalmon" :strike-through t)))))
+       (:foreground "#b58900" :strike-through t)))))
   )
