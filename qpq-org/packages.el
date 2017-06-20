@@ -66,7 +66,7 @@
            :empty-lines 1)
           ("d" "Day Report")
           ("dr" "Day-report" entry (file+headline org-agenda-file-dayreport "Day Report")
-           "* %?\n** 计划\n1. \n** 时间\n|上午|||\n|下午|||\n|有效时间||\n** 完成与否？\n** 轻松／吃力？\n** 调整\n** 奖惩\n** 改进"
+           "* %?\n** 计划\n1. \n** 时间\n|上午|||\n|下午|||\n|有效时间||\n** 完成与否？\n\n** 轻松／吃力？\n\n** 调整\n\n** 奖惩\n\n** 改进\n"
            :empty-lines 1)
           ("dl" "Day-life-report" entry (file+headline org-agenda-file-daylifereport "Life Report")
            "* %?\n** 食物\n上午： \n中午： \n下午： \n** 饮水\n\n** 工作状态与心情\n\n** 改进\n"
