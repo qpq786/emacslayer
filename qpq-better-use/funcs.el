@@ -38,7 +38,7 @@
 ;;快捷打开文件
 (defun open-my-gtd-week-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/org/ts-week.org"))
+  (find-file "~/ownCloud/emacs/orgs/tdl-week.org"))
 
 (defun open-my-gtd-night-file()
   (interactive)
