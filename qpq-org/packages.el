@@ -55,11 +55,11 @@
 
   ;;设定org-gtd
   (setq org-agenda-dir "~/ownCloud/emacs")
-  (setq org-agenda-file-gtd (expand-file-name "org/gtd-today.org" org-agenda-dir))
-  (setq org-agenda-file-emacs (expand-file-name "org/emacs-learning.org" org-agenda-dir))
+  (setq org-agenda-file-gtd (expand-file-name "orgs/gtd-today.org" org-agenda-dir))
+  (setq org-agenda-file-emacs (expand-file-name "orgs/emacs-learning.org" org-agenda-dir))
   (setq org-agenda-file-journal-QW (expand-file-name "journal/quantum_walk.org" org-agenda-dir))
-  (setq org-agenda-file-dayreport (expand-file-name "org/day-report.org" org-agenda-dir))
-  (setq org-agenda-file-daylifereport (expand-file-name "org/day-life-report.org" org-agenda-dir))
+  (setq org-agenda-file-dayreport (expand-file-name "orgs/day-report.org" org-agenda-dir))
+  (setq org-agenda-file-daylifereport (expand-file-name "orgs/day-life-report.org" org-agenda-dir))
   (setq org-capture-templates
         '(("t" "Todo-today" entry (file+headline org-agenda-file-gtd "Today")
            "* TODO thinking, solving and finding the key problem in%?\nkey task: \nkey problem:\n  %i\n"

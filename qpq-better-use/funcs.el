@@ -42,11 +42,11 @@
 
 (defun open-my-gtd-night-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/org/ts-night.org"))
+  (find-file "~/ownCloud/emacs/orgs/ts-night.org"))
 
 (defun open-my-gtd-dayr-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/org/day-report.org"))
+  (find-file "~/ownCloud/emacs/orgs/day-report.org"))
 
 ;;关闭buffer与window
 (defun close-and-kill-this-pane ()
