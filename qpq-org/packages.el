@@ -54,7 +54,7 @@
   (setq org-confirm-babel-evaluate nil)
 
   ;;设定org-gtd
-  (setq org-agenda-dir "~/ownCloud/emacs")
+  (setq org-agenda-dir "~/Dropbox/emacs")
   (setq org-agenda-file-gtd (expand-file-name "orgs/gtd-today.org" org-agenda-dir))
   (setq org-agenda-file-emacs (expand-file-name "orgs/emacs-learning.org" org-agenda-dir))
   (setq org-agenda-file-journal-QW (expand-file-name "journal/quantum_walk.org" org-agenda-dir))
@@ -66,7 +66,7 @@
            :empty-lines 1)
           ("r" "Report")
           ("rd" "Day-report" entry (file+headline org-agenda-file-dayreport "Day Report")
-           "* %?\n** 计划\n1. \n** 时间\n|上午|||\n|下午|||\n|有效时间||\n** 完成与否？\n\n** 轻松／吃力？\n\n** 调整／改进\n\n** 奖惩"
+           "* %?\n** 计划\n1. \n** 时间\n|上午|||\n|下午|||\n|有效时间||\n** 完成与否？\n\n** 轻松／吃力？\n\n** 调整\n\n** 反省\n\n** 改进\n\n** 奖惩"
            :empty-lines 1)
           ("rw" "week-report" entry (file+headline org-agenda-file-dayreport "Day Report")
            "* %?月 周\n** 时间\n|有效时间||\n|平均有效时间||\n** 周目标完成与否？\n\n** 轻松／吃力？\n\n** 调整／改进\n\n** 奖惩"

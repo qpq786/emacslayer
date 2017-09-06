@@ -26,7 +26,7 @@
     (when step 
       (goto-char max)
       (next-line))
-    ))
+    )) 
 
 (defun sh-send-line-or-region-and-step ()
   (interactive)
@@ -38,15 +38,15 @@
 ;;快捷打开文件
 (defun open-my-gtd-week-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/orgs/tdl-week.org"))
+  (find-file "~/Dropbox/emacs/orgs/tdl-week.org"))
 
 (defun open-my-gtd-night-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/orgs/ts-night.org"))
+  (find-file "~/Dropbox/emacs/emacs/orgs/ts-night.org"))
 
 (defun open-my-gtd-dayr-file()
   (interactive)
-  (find-file "~/ownCloud/emacs/orgs/day-report.org"))
+  (find-file "~/Dropbox/emacs/emacs/orgs/day-report.org"))
 
 ;;关闭buffer与window
 (defun close-and-kill-this-pane ()
